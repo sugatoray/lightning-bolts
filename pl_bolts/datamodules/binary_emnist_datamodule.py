@@ -2,7 +2,7 @@
 from typing import Any, Callable, Optional, Union
 
 from pl_bolts.datamodules.vision_datamodule import VisionDataModule
-from pl_boltsX.datasets import BinaryEMNIST ## TODO: change pl_boltsX --> pl_bolts
+from pl_bolts.datasets import BinaryEMNIST
 from pl_bolts.utils import _TORCHVISION_AVAILABLE
 from pl_bolts.utils.warnings import warn_missing_pkg
 
