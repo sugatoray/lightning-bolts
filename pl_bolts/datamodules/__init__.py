@@ -12,8 +12,6 @@ from pl_bolts.datamodules.ssl_imagenet_datamodule import SSLImagenetDataModule
 from pl_bolts.datamodules.stl10_datamodule import STL10DataModule
 from pl_bolts.datamodules.vocdetection_datamodule import VOCDetectionDataModule
 from pl_bolts.datasets.kitti_dataset import KittiDataset
-from pl_boltsX.datamodules.emnist_datamodule import EMNISTDataModule
-from pl_boltsX.datamodules.binary_emnist_datamodule import BinaryEMNISTDataModule
 
 __all__ = [
     'AsynchronousLoader',
@@ -35,6 +33,4 @@ __all__ = [
     'STL10DataModule',
     'VOCDetectionDataModule',
     'KittiDataset',
-    'EMNISTDataModule',
-    'BinaryEMNISTDataModule',
 ]
